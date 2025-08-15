@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @RestController
-@CrossOrigin(origins = "https://sleephawk.github.io/lyrics-front-end")
+@CrossOrigin(origins = "https://sleephawk.github.io/")
 @RequestMapping("/api/songs")
 public class SongController {
 
